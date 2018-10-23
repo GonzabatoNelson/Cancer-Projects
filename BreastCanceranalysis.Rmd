@@ -49,7 +49,7 @@ brscanc %>%
 brscanc %>% 
   ggplot(aes(nuclei,fill=Class))+geom_histogram(stat="count")+
   labs(title="Number of nuclei with patient cancer class",
-       x="Tumor thickness",y="Number of cases",caption="Based on UCI Wisconsin data")+
+       x="TNumber of Nuclei",y="Number of cases",caption="Based on UCI Wisconsin data")+
   scale_fill_manual(values=c("orange3","steelblue3"))+
   theme(plot.title = element_text(hjust=0.5))
 #As the rate of cancer progresses increases, the rate of mitosis also increases which explains the increased number of nuclei in cancerous patients. There are however some outliers. Are these simply by mistake?
