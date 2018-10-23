@@ -8,6 +8,7 @@ Dataset Location: #https://storage.googleapis.com/kaggle-datasets/17261/22667/wi
 Taking a look at this dataset.
 
 ```{r}
+options(warn=1)
 shh<-suppressMessages
 shh(library(Amelia))
 shh(library(tidyverse))
